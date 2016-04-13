@@ -1,0 +1,110 @@
+/**************首页*****************/
+/*****共同部分*********/
+.nav,.kecheng,.cnt_title,.dongtai{width:1000px; margin:0 auto;}
+
+/*****头部*********/
+.top{height:403px; background:url(../images/banner.jpg) no-repeat;}
+/*****导航*********/
+.nav{height:53px; margin-bottom:41px;}
+.nav a{display:block; width:196px; height:53px; float:left; margin-right:5px; 
+text-indent:-7489px;}
+.nav_home{background:url(../images/home.jpg) no-repeat;}
+.nav_kecheng{background:url(../images/jingpin.jpg) no-repeat;}
+.nav_mingshi{background:url(../images/mingshi.jpg) no-repeat;}
+.nav_lianxi{background:url(../images/lianxi.jpg) no-repeat;}
+.nav .nav_guanyu{background:url(../images/guanyu.jpg) no-repeat; margin:0;}
+
+
+
+/*****课程推荐*********/
+.kecheng{height:320px;}
+.ke{width:561px; height:312px; border:4px solid #eaeaea; float:left;
+	}
+.ke table{width:542px; height:248px; margin:0 auto;}
+.ke th{background:#e4f2ff;}
+.ke td{border:1px solid #eaeaea; text-align:center;}
+.ke h3{font-size:20px; font-weight:900; height:44px; line-height:44px; margin-left:10px;}
+
+.teachers{width:407px; height:320px; float:right;}
+.teachers dl{width:407px; height:80px; margin-bottom:39px;}
+.teachers dl .teacher_pic{float:left; width:128px;}
+.teachers dl dt{float:left; font-size:14px; color:000; width:271px; margin:8px 0 0 8px;}
+.teachers dl dd{float:left; width:279px;}
+.teachers dl .laoshi{width:60px; height:15px; background:#f6a846; color:#fff; line-height:15px; text-align:center; margin:8px 0 0 8px;}
+.teachers dl .teacher_desc{display:block; width:260px; height:14px; margin:12px 0 0 8px;}
+.teacher_last{margin:0;}
+
+/*****开始吹牛*********/
+.cnt_title{height:171px; text-align:center;}
+.cnt_title h3{line-height:140px; font-size:32px; color:#0080d6; font-family:"微软雅黑";}
+.cnt_title p{color:#0080d6; font-size:16px; font-family:"微软雅黑"; margin-top:-45px;}
+
+.cnt dl dt h3{font-size:28px; font-family:"微软雅黑";}
+.cnt dl dd a{display:block; width:112px; height:32px;}
+
+
+.dongtai{height:278px;}
+.cnt .dongtai dl dt h3{color:#01ace2; font-size:28px; margin-bottom:30px;}
+.cnt .dongtai .cnt_pic{float:left; margin-left:50px;}
+.cnt .dongtai dl{width:520px; height:278px; float:right;}
+.cnt .dongtai dl ul li{background:url(../images/yuan_blue.jpg) no-repeat left center;
+	margin-left:5px; padding-left:15px; line-height:26px;}
+.cnt .dongtai dl dd a{display:block; width:112px; height:32px;
+	background:url(../images/btn_lan.jpg); text-indent:-999px;
+	margin-top:30px;}
+
+
+/**************精品课程*****************/
+.tb_desc h3{font-size:20px; font-weight:900; height:44px; line-height:44px; margin-left:15px; }
+.tb_desc table{width:958px; height:302px; border:1px solid #e9e9e9; text-align:center;
+margin:0 auto;}
+.tb_desc table td{border:1px solid #e9e9e9;}
+.tb_desc th{background:#e4f2ff;}
+
+.vip_class{width:991px; height:361px; border:4px solid #cdd6dd; margin-top:28px;}
+.nor_class{width:991px; height:361px; border:4px solid #cdd6dd; margin-top:28px;}
+
+.reshen{line-height:26px; margin:20px 0 50px 10px;}
+
+
+/**************名师团队*****************/
+.people{width:1000px; height:636px; background:#f4f4f4; margin:24px 0 48px 0;}
+.people dl{display:inline; width:224px; height:288px; float:left; margin:12px 12px; background:#fff;}
+.people dl dd img{width:224px; height:140px;}
+.people dl dt a{display:inline-block; height:48px; width:200px; line-height:52px;
+				font-size:18px; font-weight:900; margin:0 8px;}
+.people dl dd p{line-height:22px; margin:0 8px;}
+
+
+/**************联系我们*****************/
+.lianxi{width:1000px; height:435px;}
+.lianxi dl{width:300px; float:left; margin:30px 0 10px 12px; line-height:24px;}
+.lianxi p{width:300px;}
+.lianxi dl dt{font-weight:900;}
+.lianxi .adress{float:right; margin:29px 12px 0 0;}
+.lianxi .email{width:300px; line-height:24px; margin-left:12px;}
+
+
+/**************关于诺恩*****************/
+.desc{width:1000px; height:81px; margin-top:38px; overflow:hidden;}
+.desc dd img{float:left; margin-left:10px;}
+.desc dt h4{margin:5px 0 0 93px; font-size:18px; font-weight:900;}
+.desc dt p{margin:12px 0 0 93px; font-size:14px;}
+
+.desc_btm{width:988px; height:168px; padding:32px 0 0 12px;}
+.desc_btm h5{font-size:12px; font-weight:900; margin-bottom:5px;}
+.desc_btm p{line-height:26px;}
+.lan dt{color:#344860;}
+.huang dt{color:#ffa318;}
+
+.news{margin-bottom:30px;}
+.news_title{height:64px; line-height:64px; border-bottom:1px solid #ccc;}
+.news_title h3{font-size:30px;font-family:"微软雅黑";padding-left:12px;}
+.news h4{margin:25px 0 10px 12px;}
+.news ul li{background:url(../images/ul_list.jpg) no-repeat left center;
+		    margin-left:10px;}
+.news ul li a{line-height:28px; padding-left:12px;}
+
+.join{margin-bottom:30px;}
+.join h4{margin:25px 0 10px 12px;}
+.join ol li a{line-height:28px; padding-left:12px;}

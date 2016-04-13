@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**********样式的重置*********/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;color:#666;}
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:none;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+
+
+
+
+
+/**************Header*****************/
+.header{height:355px;}
+.h_top,.h_mdl,.h_btm{width:1000px; margin:0 auto;}
+.h_top_bg{height:27px; border-bottom:1px solid #d1d1d1;}
+.h_top{color:#000;}
+.h_top h4{font-weight:100; float:left; margin:8px 0 0 12px; font-size:12px;}
+.h_top p{float:right; margin:8px 13px 0 0;}
+
+.h_mdl_bg{height:72px; border-bottom:10px solid #c3cad0; margin-bottom:10px;}
+.logo{width:254px; height:72px; background:url(../images/zhiliang.jpg) no-repeat right 44px;
+	  float:left;}
+.logo img{margin:3px 0 0 4px;}
+.h_nav{width:746px; height:72px; float:right;}
+.h_nav ul{margin-left:180px;}
+.h_nav ul li{float:left;}
+.h_nav ul li a{display:block; height:72px; line-height:88px; float:left; padding:0 27px;
+			   font-size:16px; color:#000; font-weight:900; font-family:"微软雅黑"; overflow:hidden;}
+.h_nav ul li a:hover{background:#999; color:#fff;}
+
+.h_btm_bg{height:236px; background:url(../images/banner_bg.jpg) repeat-x;}
+.h_btm{height:236px; background:url(../images/pics.jpg) no-repeat 564px top;}
+.h_btm img{margin:85px 0 0 11px;}
+
+
+/**************面包屑导航*****************/
+.leader{height:42px; border-bottom:1px solid #d1d1d1; color:#666; font-size:14px;
+		width:995px; margin:0 auto; line-height:42px; padding-left:5px;}
+
+
+/**************中部内容自适应部分*****************/
+.middle{width:1000px; min-height:200px; _height:200px; margin:0 auto;}
+
+
+
+/**************Footer*****************/
+.foot_nav,.cr_cnt{width:1000px; margin:0 auto; }
+.foot{height:27px; background:#b3bdc6;}
+.foot li{float:left; line-height:27px;}
+.foot li a{color:#4a4849; padding:0 10px 0 8px; font-weight:900;
+		   border-left:1px solid #4a4849;}
+.foot .first_li a{border:0; margin-left:384px;}
+
+.cr{height:47px; background:#ececec; padding-top:17px;}
+.cr_cnt p{line-height:18px; text-align:center; color:#000;}
